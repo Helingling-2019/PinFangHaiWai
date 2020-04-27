@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title></title>
+	<link rel="stylesheet" href="css/list.css">
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<script src="js/jquery.min.js"></script>
+	<script src="js/index.js"></script>
+	<script src="js/jquery.SuperSlide.2.1.1.js"></script>
+	<!-- <script src="http://api.map.baidu.com/api?v=2.0&ak=bB5ELeS1e08CfRdEDqBZc4SQk8LsV1lZ"></script> -->
+	<script src="http://api.map.baidu.com/api?v=3.0&ak=X42FfHwcQIECwhGGIh9qta8wD0DxusT8"></script>
+	<script src="js/echarts.min.js"></script>
+	<!-- 白名单地址*.mysite.com* -->
+</head>
+<body>
+	<!-- 二级部导航 -->
+	<div class="m-navigation-box">
+		<div class="m-navigation c">
+			<a href="javascript:void(0)"><img src="images/logo_m.png" alt="" class="m-navigation-logo"></a>
+			<ul>
+				<li class="navigation-click">
+						<div class="m-navigation-text"><span>首页</span></div>
+						<a href="javascript:void(0)" class="m-navigation-texta"></a>
+					</li>
+					<li class="navigation-click">
+						<div class="m-navigation-text">
+							<span>查找新房</span>
+							<div class="m-navigation-list">
+								<img src="images/index09.png" alt="">
+								<a href="">海南房产</a>
+								<a href="">越南房产</a>
+								<a href="">迪拜房产</a>
+								<a href="">马来西亚房产</a>
+								<a href="">柬埔寨房产</a>
+								<a href="">泰国房产</a>
+								<a href="">菲律宾房产</a>
+							</div>
+						</div>
+						<img src="images/index07.png" alt="" class="arrow">
+					</li>
+					<li class="navigation-click">
+						<div class="m-navigation-text">
+							<span>置业攻略</span>
+						<div class="m-navigation-list">
+							<img src="images/index09.png" alt="">
+							<a href="">楼盘动态</a>
+							<a href="">政策解读</a>
+							<a href="">海外留学</a>
+							<a href="">海外生活</a>
+							<a href="">购房指南</a>
+						</div>
+					</div>
+					<img src="images/index07.png" alt="" class="arrow">
+					</li>
+					<li class="navigation_click">
+						<div class="m-navigation-text">
+							<span>视频看房</span>
+						</div>
+					</li>
+					<li class="navigation-click">
+						<div class="m-navigation-text">
+							<span>特惠活动</span>
+							<div class="m-navigation-list">
+								<img src="images/index09.png" alt="">
+								<a href="">考察团</a>
+								<a href="">特价活动</a>
+							</div>
+						</div>
+						<img src="images/index07.png" alt="" class="arrow">
+					</li>
+					<li class="navigation-click">
+						<div class="m-navigation-text"><span>帮我找房</span></div>
+						<a href="javascript:void(0)" class="m-navigation-texta"></a>
+					</li>
+				</ul>
+		</div>
+	</div>
+	<!-- 内容 -->
+	<div class="m-puicnav ms-wid">
+		<a href="javascript:void(0)">首页</a>&gt;
+		<a href="javascript:void(0)">新盘</a>&gt;
+		<a href="javascript:void(0)">碧桂园三亚</a>
+	</div>
+	<div class="m-listtop">
+		<div class="m-listtop-bg"><img src="images/ico_26_1.png" alt=""></div>
+		<div class="m-listtop-main ms-wid m-color">
+			<div class="m-listtop-cent c">
+				<div class="m-listtop-left fl">
+					<div class="banner">
+						<div class="large-box">
+							<img src="images/mfzc.png" alt="" class="m-mfzc">
+							<ul>
+								<li><a href="javascript:void(0)"><img src="images/fa0fe97c53.jpg" alt="" class="large-img"></a></li>
+								<li><a href="javascript:void(0)"><img src="images/426776edd8.jpg" alt=""></a></li>
+								<li><a href="javascript:void(0)"><img src="images/469eb5674c.jpg" alt=""></a></li>
+								<li><a href="javascript:void(0)"><img src="images/8bddd31a16.jpg" alt=""></a></li>
+							</ul>
+						</div>
+						<div class="small-box">
+							<span class="btn left-btn"></span>
+							<div class="small-list">
+								<ul>
+									<li><a href="javascript:void(0)"><img src="images/fa0fe97c53.jpg" alt=""></a></li>
+									<li><a href="javascript:void(0)"><img src="images/426776edd8.jpg" alt=""></a></li>
+									<li><a href="javascript:void(0)"><img src="images/469eb5674c.jpg" alt=""></a></li>
+									<li><a href="javascript:void(0)"><img src="images/8bddd31a16.jpg" alt=""></a></li>
+								</ul>
+							</div>
+							<span class="btn right-btn"></span>
+						</div>
+					</div>
+				</div>
+				<div class="m-listtop-right fl">
+					<div class="m-listtop-mkl">
+						<div class="m-listtop-mkl-l">
+							<div class="m-listtitle">
+								<span>碧桂园三亚郡</span>
+								<em>[三亚市]</em>
+								<i>在售</i>
+							</div>
+							<div class="m-listjiage">
+								<span>均价： <em>26000</em>元/㎡</span>
+								<i class="m-commonality youxiaoqi"></i>
+								<div class="m-listtest m-listtese-color c">
+									<i>养生社区</i>
+									<i>养老居所</i>
+									<i>经济住宅</i>
+								</div>
+							</div>
+						</div>
+						<div class="m-listtop-mk2 c">
+							<div class="m-listtop-mk2-main c">
+								<div class="m-listpinf">
+									<p class="p1"><span>品房海外</span></p>
+									<p class="p2">全款96折</p>
+									<i class="m-commonality"></i>
+								</div>
+								<div class="m-listyh">
+									<a href="javascript:void(0)" class="pic-jtz">报名看房</a>
+								</div>
+							</div>
+						</div>
+						<div class="m-listxinxi">
+							<p>
+								<em>主力户型：</em>
+								<span>(建筑面积)104-117㎡(三居)，146㎡(四居)</span>
+							</p>
+							<p>
+								<em>开盘时间:</em>
+								<span>2018年02月23日</span>
+							</p>
+							<p>
+								<em>交房时间:</em>
+								<span>2019年12月</span>
+							</p>
+							<p>
+								<em>开发房：</em>
+								<span>碧桂园</span>
+							</p>
+							<p>
+								<em>物业公司:</em>
+								<span>碧桂园物业管理公司</span>
+							</p>
+							<p>
+								<em>楼盘地址：</em>
+								<span class="site">海南省三亚市天涯区三亚湾凤翔路海田路</span>
+								<a href="javascript:void(0)" class="m-idckdt"><i><img src="images/ico_5.png" alt=""></i><span>查看地图</span></a>
+							</p>
+							<div class="m-listckxq">
+								<a href="javascript:void(0)">更多信息>></a>
+							</div>
+						</div>
+						<div class="m-listcall c">
+							<div class="m-listcall-left fl">
+								<span><i><img src="images/ico_6.png" alt=""></i></span>
+								<em>0898-8872394</em>
+							</div>
+							<div class="m-listcall-right fr">
+								<a href="javascript:void(0)" class="pic-jjtz"><span>降价通知</span></a>
+								<a href="javascript:void(0)" rel="nofollow" onclick="show_floatWindow();">在线咨询</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div style="height: 140px;background:#f5f7fa;"></div>
+		<!-- 楼盘导航 -->
+		<div style="height: 20px;background: #f5f7fa;"></div>
+		<div class="m-listnav">
+			<div class="m-listnavmain m-wid m-color c">
+				<ul class="c">
+					<li><a href="javascript:void(0)">楼盘首页</a></li>
+					<li><a href="javascript:void(0)">楼盘户型</a></li>
+					<li><a href="javascript:void(0)">楼盘信息</a></li>
+					<li><a href="javascript:void(0)">楼盘相册</a></li>
+				</ul>
+				<div class="m-fenxiang">
+							<a href="javascript:void(0)" class="b-more" ><img src="images/more.jpg" alt=""></a>
+							<a href="javascript:void(0)" class="m-weixin" title="分享到微信"><img src="images/weixin.jpg" alt="分享到微信"></a>
+							<a href="javascript:void(0)" class="m-sqq" title="分享到QQ好友"><img src="images/qq.jpg" alt="分享到QQ好友"></a>
+							<a href="javascript:void(0)" class="m-sina" title="分享到新浪微博"><img src="images/xinlang.jpg" alt="分享到新浪微博"></a>
+							<a href="javascript:void(0)" class="m-zone" title="分享到QQ空间"><img src="images/kongjian.jpg" alt="分享到QQ空间"></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 户型 -->
+	<div style="height: 20px;background: #f5f7fa;"></div>
+	<div class="listhx">
+		<div class="listhx-main m-wid m-color">
+			<div class="listhx-cent">
+				<div class="listinde-h c">
+					<h2>在售户型</h2>
+					<a href="javascript:void(0)">更多户型 >></a>
+				</div>
+				<div class="listhx-cent-list">
+					<div class="listhx-cent-list-ul">
+						<ul class="c">
+							<li>
+								<a href="javascript:void(0)">
+									<div class="y-tu">
+										<p class="y-img"><img src="images/8bddd31a16.jpg" alt=""></p>
+										<p class="y-hx">Y070-B户型</p>
+									</div>
+									<div class="y-text">
+										<p class="y-js">3室2厅2卫</p>
+										<p class="y-jm">(建筑面积)105㎡</p>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:void(0)">
+									<div class="y-tu">
+										<p class="y-img"><img src="images/8bddd31a16.jpg" alt=""></p>
+										<p class="y-hx">Y070-B户型</p>
+									</div>
+									<div class="y-text">
+										<p class="y-js">3室2厅2卫</p>
+										<p class="y-jm">(建筑面积)105㎡</p>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:void(0)">
+									<div class="y-tu">
+										<p class="y-img"><img src="images/8bddd31a16.jpg" alt=""></p>
+										<p class="y-hx">Y070-B户型</p>
+									</div>
+									<div class="y-text">
+										<p class="y-js">3室2厅2卫</p>
+										<p class="y-jm">(建筑面积)105㎡</p>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:void(0)">
+									<div class="y-tu">
+										<p class="y-img"><img src="images/8bddd31a16.jpg" alt=""></p>
+										<p class="y-hx">Y070-B户型</p>
+									</div>
+									<div class="y-text">
+										<p class="y-js">3室2厅2卫</p>
+										<p class="y-jm">(建筑面积)105㎡</p>
+									</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="list-add">
+		<div class="list-add-main ms-wid">
+			<div class="list-addbg"><img src="images/ico_28.png" alt=""></div>
+			<div class="list-addinput c">
+				<form class="submit-area">
+					<input type="hidden" name="hid" value="1672">
+					<input type="hidden" name="source" value="59">
+					<input type="hidden" name="equipment" value="2">
+					<input type="text" class="listinput" name="mobile" placeholder="请输入手机号,预约找房">
+					<input type="button" value="立即咨询" class="listb m-form-button">
+				</form>
+			</div>
+		</div>
+	</div>
+	<!-- 楼盘信息 -->
+	<div class="list-xinxi">
+		<div class="list-xinxi-main ms-wid m-color">
+			<div class="list-xinxi-cent">
+				<div class="listinde-h c">
+					<h2>楼盘信息</h2>
+					<a href="javscript:void(0)">更多信息 >></a>
+				</div>
+				<div class="listxinxi-centma">
+					<table>
+						<tr>
+							<td>
+								<em>开盘时间：</em>
+								<span>2020年02月22日</span>
+							</td>
+							<td>
+								<em>交房时间：</em>
+								<span>2020年12月</span>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<em>占地面积：</em>
+								<span>122000㎡</span>
+							</td>
+							<td>
+								<em>建筑面积：</em>
+								<span>300000㎡</span>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<em>容 <i style="padding-left: 3px;"></i>积<i style="padding-left: 3px;"></i>率：</em>
+								<span>2.2</span>
+							</td>
+							<td>
+								<em>绿 <i style="padding-left: 3px;"></i>化<i style="padding-left: 3px;"></i>率：</em>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<em>总<i style="padding-left: 3px;"></i>栋<i style="padding-left: 3px;"></i>数：</em>
+								<span>17栋</span>
+							</td>
+							<td>
+								<em>总 <i style="padding-left: 3px;"></i>户<i style="padding-left: 3px;"></i>数：</em>
+								<span>1400户</span>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<em>产权年限：</em>
+								<span>70年</span>
+							</td>
+							<td>
+								<em>许可证号：</em>
+								<span>三房预许子[2017]61号</span>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<em>开<i style="padding-left: 3px;"></i>发<i style="padding-left: 3px;"></i>商：</em>
+								<span>碧桂园</span>
+							</td>
+							<td>
+								<em>物业公司：</em>
+								<span>碧桂园物业管理公司</span>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div class="listxinxi-bottom">
+				<p class="c">
+					<span>项目特点：</span>
+					<em>项目位于三亚度假区区域，由4个组团构成，分别为云海，碧海，星海，领海。结合智能化家居系统，提供安全，便民的人居社区，24小时确保业主居住的舒适与安全，打造一个具有高效能基础设施，质量生态环境，品质物质形态环境以及物业管理好的品质居住社区。</em>
+				</p>
+			</div>
+		</div>
+	</div>
+	<div style="height: 20px;background: #f5f7fa;"></div>
+	<div class="m-listmap">
+		<div class="m-listmap-main m-color ms-wid">
+			<div class="m-listmap-cent">
+				<div class="listinde-h c"><h2>周边套配</h2></div>
+			</div>
+			<div style="width:1200px;height:500px;border:none;margin:0 auto;position: relative;">
+				<div id="l-map" style="height:100%;"></div>
+				<div id="r-result" style="display: none;"></div><!-- 剩下的部分你自己调整一下 -->
+				<div class="m-listmap-list">
+					<ul>
+						<li><a href="javascript:void(0);"><i><img src="images/ico_12.png" alt=""></i><span>交通</span></a></li>
+						<li><a href="javascript:void(0);"><i><img src="images/ico_13.png" alt=""></i><span>餐饮</span></a></li>
+						<li><a href="javascript:void(0);"><i><img src="images/ico_14.png" alt=""></i><span>学校</span></a></li>
+						<li><a href="javascript:void(0);"><i><img src="images/ico_15.png" alt=""></i><span>医疗</span></a></li>
+						<li><a href="javascript:void(0);"><i><img src="images/ico_16.png" alt=""></i><span>娱乐</span></a></li>
+						<li><a href="javascript:void(0);"><i><img src="images/ico_17.png" alt=""></i><span>公园</span></a></li>
+						<li><a href="javascript:void(0);"><i><img src="images/ico_18.png" alt=""></i><span>银行</span></a></li>
+						<li><a href="javascript:void(0);"><i><img src="images/ico_19.png" alt=""></i><span>周边楼盘</span></a></li>
+						<li><a href="javascript:void(0);"><i><img src="images/ico_20.png" alt=""></i><span>购物</span></a></li>
+					</ul>
+				</div>
+			</div>
+			<script>
+				/// 百度地图API功能
+					var map = new BMap.Map("l-map");            // 创建Map实例
+					map.centerAndZoom(new BMap.Point(109.518646,18.258217), 17);
+					var local = new BMap.LocalSearch(map, {
+						renderOptions: {map: map, panel: "r-result"}
+					});
+					local.search("周边楼盘");
+			</script>
+		</div>
+	</div>
+	<!-- 楼盘相册 -->
+	<div class="m-listphoto">
+		<div class="m-listphoto-main ms-wid m-color">
+			<div class="m-listphoto-cent">
+				<div class="listinde-h c">
+					<h2>楼盘相册</h2>
+					<a href="javascript: ;">更多 >></a>
+				</div>
+				<div class="m-slider m-multislides multislides">
+					<div class="m-listphoto-list m-frame frame c">
+						<ul class="m-slides slides">
+							<li class="slide">
+								<a href="javascript:;">
+									<div class="m-tu">
+										<P class="m-img"><img src="images/d572444282.jpg" alt=""></P>
+										<P class="m-sm"><i><img src="images/ico_21.png" alt=""></i><span>4</span></P>
+									</div>
+									<div class="m-text">
+										<span>效果图</span>
+									</div>
+								</a>
+							</li>
+							<li class="slide">
+								<a href="javascript:;">
+									<div class="m-tu">
+										<P class="m-img"><img src="images/78ece1f769.jpg" alt=""></P>
+										<P class="m-sm"><i><img src="images/ico_21.png" alt=""></i><span>23</span></P>
+									</div>
+									<div class="m-text">
+										<span>交通图</span>
+									</div>
+								</a>
+							</li>
+							<li class="slide">
+								<a href="javascript:;">
+									<div class="m-tu">
+										<P class="m-img"><img src="images/56167f1d37.jpg" alt=""></P>
+										<P class="m-sm"><i><img src="images/ico_21.png" alt=""></i><span>7</span></P>
+									</div>
+									<div class="m-text">
+										<span>实景图</span>
+									</div>
+								</a>
+							</li>
+							<li class="slide">
+								<a href="javascript:;">
+									<div class="m-tu">
+										<P class="m-img"><img src="images/469eb5674c.jpg" alt=""></P>
+										<P class="m-sm"><i><img src="images/ico_21.png" alt=""></i><span>5</span></P>
+									</div>
+									<div class="m-text">
+										<span>样板图</span>
+									</div>
+								</a>
+							</li>
+							<li class="slide">
+								<a href="javascript:;">
+									<div class="m-tu">
+										<P class="m-img"><img src="images/4bd7d09f0e.jpg" alt=""></P>
+										<P class="m-sm"><i><img src="images/ico_21.png" alt=""></i><span>12</span></P>
+									</div>
+									<div class="m-text">
+										<span>规划图</span>
+									</div>
+								</a>
+							</li>
+							<li class="slide">
+								<a href="javascript:;">
+									<div class="m-tu">
+										<P class="m-img"><img src="images/426776edd8.jpg" alt=""></P>
+										<P class="m-sm"><i><img src="images/ico_21.png" alt=""></i><span>14</span></P>
+									</div>
+									<div class="m-text">
+										<span>周边图</span>
+									</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<span class="m-prev prev"><img src="images/ico_8.png" alt=""></span>
+					<span class="m-next next"><img src="images/ico_9.png" alt=""></span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div style="height: 20px;background: #f5f7fa;"></div>
+	<!-- 价格走势 -->
+	<div class="m-listrend">
+		<div class="m-listrend-main ms-wid m-color">
+			<div class="listinde-h c"><h2>价格走势</h2></div>
+			<div class="m-listrend-centmain" id="mineFirst">
+				
+			</div>
+		</div>
+	</div>
+	<script>
+		/* 1，声明使用的容器 */
+		var dom = document.getElementById("mineFirst");
+		   /* 2，初始化图形 */
+		var myChart = echarts.init(dom);
+		var app = {};
+		option = null;
+		/* 3，图形绘制的选项配置 */
+		option = {
+		    title: {
+		        /* text: '折线图堆叠' */
+		    },
+		    tooltip: {
+		        trigger: 'axis'
+		    },
+		    legend: {
+				left:'right',
+		        data: [ '碧桂园三亚郡'],
+				textStyle:{
+					color:'#03a9f4',
+				}
+		    },
+		    grid: {
+		        left: '3%',
+		        right: '6%',
+		        bottom: '3%',
+		        containLabel: true
+		    },
+		    toolbox: {
+		        feature: {
+		            saveAsImage: {}
+		        }
+		    },
+		    xAxis: {
+		        type: 'category',
+		        boundaryGap: false,
+		        data: ['2020-01-12', '2020-03-14', '2020-05-16', '2020-08-20', '2020-09-23', '2020-10-25', '2020-11-11']
+			},
+		    yAxis: {
+		        type: 'value',
+				axisLabel:{
+					formatter:'{value} 元/㎡'
+				}
+		    },
+		    series: [
+		        {
+		            name: '碧桂园三亚郡',
+		            type: 'line',
+		            stack: '总量',
+		            data: [0, 23232,22201, 25154, 24190, 22330, 25410],
+					itemStyle : {
+						normal : {
+							color:'#03a9f4',
+							lineStyle:{
+								color:'#03a9f4',
+							}
+						},
+						
+					} 
+					
+		        },
+		    ]
+		};
+			if (option && typeof option === "object") {
+				myChart.setOption(option, true);
+		    }
+	</script>
+	<div style="height: 20px;background: #f5f7fa;"></div>
+	<!-- 贷款计算 -->
+	<div class="ms-wid" style="padding-bottom: 15px;">
+		<div class="real-trends m-listloat-cent c">
+			<div class="listinde-h c"><h2>房贷计算</h2></div>
+			<div class="trends-count">
+				<div class="count-box">
+					<div class="count-l">
+						<h4>请选择户型及贷款信息</h4>
+						<ul class="count-list">
+							<li>
+								<label>户<i></i>型</label>
+								<div class="list-box">
+									<span class="list-text house-type">请选择户型</span><i></i>
+									<ul class="list-cun house">
+										<li data-money="1612500">二室二厅一厨一卫(75.0㎡)</li>
+										<li data-money="1935000">三室二厅一厨一卫(85.0㎡)</li>
+										<li data-money="2128500">三室二厅一厨一卫(95.0㎡)</li>
+										<li data-money="2644500">四室二厅一厨一卫(175.0㎡)</li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<label>房贷总额</label>
+								<div class="list-box">
+									<input type="text" class="total hous-sumprice" placeholder="请输入房款总额">
+									<span class="money">万元</span>
+									<p class="pit-txt">请输入正确的金额</p>
+								</div>
+							</li>
+							<li>
+								<label>首付成数</label>
+								<div class="list-box">
+									<span data-id="0.3" class="list-text bus-ipt-floor">3成</span><i></i>
+									<ul class="list-cun floor-pull">
+										<li data-val="0.1">1成</li>
+										<li data-val="0.2">2成</li>
+										<li data-val="0.3">3成</li>
+										<li data-val="0.4">4成</li>
+										<li data-val="0.5">5成</li>
+										<li data-val="0.6">6成</li>
+										<li data-val="0.7">7成</li>
+										<li data-val="0.8">8成</li>
+										<li data-val="0.9">9成</li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<label>贷款方式</label>
+								<div class="list-box">
+									<span class="list-text loan-floor">商业贷款</span><i></i>
+									<ul class="list-cun loan">
+										<li>商业贷款</li>
+										<li>公积金贷款</li>
+									</ul>
+								</div>
+							</li>
+							<li class="group">
+								<label>贷款总额</label>
+								<div class="list-box">
+									<input type="text" class="total dk-money" disabled="disabled">
+									<span class="money">万元</span>
+									<p class="pit-txt">请输入正确的金额</p>
+								</div>
+							</li>
+							<li class="group">
+								<label>公贷金额</label>
+								<div class="list-box">
+									<input type="text" class="total gd-money" placeholder="请输入公贷金额">
+									<span class="money">万元</span>
+								</div>
+							</li>
+							<li class="group">
+								<label>商业金额</label>
+								<div class="list-box">
+									<input type="text" class="total sd-money" placeholder="请输入商业金额">
+									<span class="money">万元</span>
+								</div>
+							</li>
+							<li class="group">
+								<label>公贷利率</label>
+								<div class="list-box">
+									<input type="text" class="total gd-lilv" placeholder="请输入公贷金额" value="3.25">
+									<span class="money">%</span>
+									<p class="pit-txt">请输入正确的贷款利率</p>
+								</div>
+							</li>
+							<li class="group">
+								<label>商业利率</label>
+								<div class="list-box">
+									<input type="text" class="total sd-lilv" placeholder="请输入商贷金额" value="3.25">
+									<span class="money">%</span>
+									<p class="pit-txt">请输入正确的商款利率</p>
+								</div>
+							</li>
+							<li class="goods">
+								<label>贷款利率</label>
+								<div class="list-box">
+									<input type="text" class="total bus-ipt-rate" value="4.90" placeholder="请输入贷款利率">
+									<span class="money">%</span>
+									<p class="pit-txt">请输入正确的贷款利率</p>
+								</div>
+							</li>
+							<li>
+								<label>贷款年限</label>
+								<div class="list-box">
+									<span class="list-text life-floor" data-id="360">30年(360期)</span><i></i>
+									<ul class="list-cun life">
+										<li data-val="24">2年(24期)</li>
+										<li data-val="36">3年(36期)</li>
+										<li data-val="48">4年(48期)</li>
+										<li data-val="60">5年(60期)</li>
+										<li data-val="72">6年(72期)</li>
+										<li data-val="84">7年(84期)</li>
+										<li data-val="96">8年(96期)</li>
+										<li data-val="108">9年(108期)</li>
+										<li data-val="120">10年(120期)</li>
+										<li data-val="180">15年(180期)</li>
+										<li data-val="240">20年(240期)</li>
+										<li data-val="300">25年(300期)</li>
+										<li data-val="360">30年(360期)</li>
+									</ul>
+								</div>
+							</li>
+						</ul>
+									<p class="p-tip">*商业贷款基准利率为4.90%</p>
+								</div>
+		<div class="countR">
+			<h4>计算结果</h4>
+			<div class="countR-box bus-tabs">
+				<ul class="countR-cut tabs-hd c">
+					<li class="tab-link-bx" data-id="1">等额本息还款</li>
+					<li class="tab-link-bj" data-id="2">等额本金还款</li>
+				</ul>
+				
+				<div class="bus-tab bus-tab-bx" data-id="1">
+					<div class="echart-box c">
+						<div class="echart-img" id="de-echart">
+							<div></div>
+						</div>
+						<div class="echart-data echart-data-bj">
+							<p class="data-line fstprice-line"><i></i>首期付款： <span class="cnt-val bus-fstprice">0.00</span>万元</p>
+							<p class="data-line loansum-line"><i></i>贷款总额： <span class="cnt-val bus-loansum">0.00</span>万元</p>
+							<p class="data-line interest-line"><i></i>利息总额：<span class="cnt-val bus-bx-interest">0.00</span>万元</p>
+						</div>
+					</div>
+					<div class="bus-fstmonth">月均还款<span class="cnt-val avg-sum">0.00</span>元</div>
+				</div>
+				<div class="bus-tab bus-tab-bj" data-id="2" style="display: none;">
+					<div class="echart-box c">
+						<div class="echart-img" id="dj-echart" style="width: 200px;height: 160px;">
+						</div>
+<script>
+	
+</script>
+<div class="echart-data">
+	<p class="data-line fstprice-line"><i></i>首期付款： <span class="cnt-val bus-fstprice">0.00</span>万元</p>
+	<p class="data-line loansum-line"><i></i>贷款总额： <span class="cnt-val bus-loansum">0.00</span>万元</p>
+	<p class="data-line interest-line"><i></i>利息总额：<span class="cnt-val bus-bj-interest">0.00</span>万元</p>
+</div>
+	</div>
+			<div class="bus-fstmonth">首页还款 <span class="cnt-val sf-sum">0.00</span>元</div>
+			<div class="bus-monthcut">每月递减：<span class="cnt-val monthcut">0.00</span>元</div>
+		</div>
+	</div>
+</div>
+<div class="reckon">
+	<input type="button" class="reckon-but" value="开始计算">
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- 底部楼盘 -->
+	<div style="height: 20px;background: #f5f7fa;"></div>
+<div class="bottomlp">
+	<div class="bottomlp-box">
+		<ul class="c">
+			<li>
+				<div class="top-img">
+					<a href="javascript:;">
+						<p class="img"><img src="images/same34.jpg" alt=""></p>
+						<p class="pric"><em>均价</em><span>2786</span><i>元/㎡</i></p>
+						<p class="city"><i><img src="images/ico_img6.png" alt=""></i><span>河内市</span></p>
+					</a>
+				</div>
+				<div class="bottom-text">
+					<p class="title"><a href="javascript:;">The Matrix One</a></p>
+					<p class="js">河内新价值高地，近商业区域，周边配套完善</p>
+					<div class="zjhb c">
+						<p><span><i>12%</i></span><em>近一年房价涨幅</em></p>
+						<p><span><i>30%</i></span><em>首付比例</em></p>
+						<p><span><i>7%</i></span><em>参考收益</em></p>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="top-img">
+					<a href="javascript:;">
+						<p class="img"><img src="images/same35.jpg" alt=""></p>
+						<p class="pric"><em>均价</em><span>2786</span><i>元/㎡</i></p>
+						<p class="city"><i><img src="images/ico_img6.png" alt=""></i><span>河内市</span></p>
+					</a>
+				</div>
+				<div class="bottom-text">
+					<p class="title"><a href="javascript:;">The Matrix One</a></p>
+					<p class="js">河内新价值高地，近商业区域，周边配套完善</p>
+					<div class="zjhb c">
+						<p><span><i>12%</i></span><em>近一年房价涨幅</em></p>
+						<p><span><i>30%</i></span><em>首付比例</em></p>
+						<p><span><i>7%</i></span><em>参考收益</em></p>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="top-img">
+					<a href="javascript:;">
+						<p class="img"><img src="images/same36.jpg" alt=""></p>
+						<p class="pric"><em>均价</em><span>2786</span><i>元/㎡</i></p>
+						<p class="city"><i><img src="images/ico_img6.png" alt=""></i><span>河内市</span></p>
+					</a>
+				</div>
+				<div class="bottom-text">
+					<p class="title"><a href="javascript:;">The Matrix One</a></p>
+					<p class="js">河内新价值高地，近商业区域，周边配套完善</p>
+					<div class="zjhb c">
+						<p><span><i>12%</i></span><em>近一年房价涨幅</em></p>
+						<p><span><i>30%</i></span><em>首付比例</em></p>
+						<p><span><i>7%</i></span><em>参考收益</em></p>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="top-img">
+					<a href="javascript:;">
+						<p class="img"><img src="images/same37.jpg" alt=""></p>
+						<p class="pric"><em>均价</em><span>2786</span><i>元/㎡</i></p>
+						<p class="city"><i><img src="images/ico_img6.png" alt=""></i><span>河内市</span></p>
+					</a>
+				</div>
+				<div class="bottom-text">
+					<p class="title"><a href="javascript:;">The Matrix One</a></p>
+					<p class="js">河内新价值高地，近商业区域，周边配套完善</p>
+					<div class="zjhb c">
+						<p><span><i>12%</i></span><em>近一年房价涨幅</em></p>
+						<p><span><i>30%</i></span><em>首付比例</em></p>
+						<p><span><i>7%</i></span><em>参考收益</em></p>
+					</div>
+				</div>
+			</li>
+		</ul>
+	</div>
+</div>
+	<!-- 底部导航 -->
+	<div class="z_wmtitle">
+		<div class="z_title">
+			<p>免责声明:本站显示的房源面积，皆为套内建筑面积。本站显示的房源信息、房价、租金收益等数据，均来源于全球开发商/房产代理商/经纪人/提供，或来自房源所在当地国家网站或房地产网站公布的数据。历史数据不代表未来走势，不构成对未来数据表现的保证，仅供参考。如房源信息有误，您可以投诉或发送举报邮件到1262793065@qq.com</p>
+			<p>1)房源所示“户型图、房屋用途、交易权属、建成年代、产权年限、建筑结构、房源价格”等，仅供参考，购房时请以房本信息为准。</p>
+			<p>2)房源介绍中的周边配套、在建设施、规划设施、地铁信息、绿化率、得房率、容积率等信息为通过物业介绍、房产证、实勘、房产官网、开发商/房产代理商等渠道获取，因时间政策会发生变化，与实际情况可能略有偏差，房源介绍仅供参考。</p>
+			<p>3)房源介绍中与距离相关的数据均来源于百度地图。</p>
+			<p>4)除本站原创文章外，所有转载的文章、图片、音频、视频等资料文件归权利方所有，若转载内容侵权，请相关权利方联系，以便我方删除。</p>
+		</div>
+	</div>
+	<div class="z_footer_box">
+		<div class="z_footer">
+			<div class="z_bottom">
+				<a href="javascript:void(0)"><img src="images/logo_m.png" alt=""></a>
+				<span>客服热线：400-0668-896</span>	
+			</div>
+			<div class="z_bottom_title">
+				<a href="JavaScript:void(0)">关于我们</a>
+				<a href="JavaScript:void(0)">帮我找房</a>
+				<a href="JavaScript:void(0)">考察团报名</a>
+				<a href="JavaScript:void(0)">隐私协议</a>
+			</div>
+			<div class="z_right c">
+				<ul>
+					<li><img src="images/index29.png" alt=""><span>关注海居订阅号</span></li>
+					<li><img src="images/index04.jpg" alt=""><span>关注海居小程序</span></li>
+				</ul>
+			</div>
+			<div class="z_bottom_title_r c">
+				<a href="JavaScript:void(0)" class="on">海外房产</a>
+				<a href="JavaScript:void(0)">关注我们</a>
+				<a href="JavaScript:void(0)">友情链接</a>
+			</div>
+			<div class="z_bottom_title_c">
+				<a href="JavaScript:void(0)">海南房产</a>
+				<a href="JavaScript:void(0)">越南房产</a>
+				<a href="JavaScript:void(0)">美国房产</a>
+				<a href="JavaScript:void(0)">老挝房产</a>
+				<a href="JavaScript:void(0)">泰国房产</a>
+				<a href="JavaScript:void(0)">缅甸房产</a>
+				<a href="JavaScript:void(0)">澳大利亚房产</a>
+				<a href="JavaScript:void(0)">马来西亚房产</a>
+				<a href="JavaScript:void(0)">印度尼西亚房产</a>
+				<a href="JavaScript:void(0)">新加坡房产</a>
+			</div>
+			<div class="z_email">
+				<span><img src="images/index27.png" alt="">客服热线：400-0668-896 (周一至周日 24小时在线)</span>
+				<span><img src="images/index28.png" alt="">Email：1262793065@qq.com</span>
+			</div>
+			
+		</div>
+	</div>
+</body>
+</html>

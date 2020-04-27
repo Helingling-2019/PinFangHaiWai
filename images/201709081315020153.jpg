@@ -1,0 +1,91 @@
+
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta
+            name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta name="renderer" content="webkit" />
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="MobileOptimized" content="320" />
+    <meta name="applicable-device" content="pc,mobile" />
+    <title>明良海外置业 —— 海外直设分公司，售后安心无忧</title>
+    <style style="text/css">
+        body {
+            text-align: center;
+            padding: 50px;
+            font-size: 26px;
+            color: #333;
+        }
+        p {
+            font-size: 26px;
+            text-align: center;
+        }
+        .btn {
+            padding: 5px;
+            color: white;
+            width: 200px;
+            display: block;
+            background: burlywood;
+            text-decoration: none;
+            margin: 0 auto;
+        }
+    </style>
+
+    <!--百度统计-->
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?929585ff002e636fed264b02e379fcfb";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+</head>
+<body>
+<div>
+    <p>对不起，您的风筝已断线。可能原因：网址失效。</p>
+    <p>请时光倒流</p>
+    <p>
+        <span class="countDown" style="color:burlywood;">10</span
+        >秒后自动返回首页
+    </p>
+    <p><a href="javascript:void(0);" onclick="navigate()" class="btn">立即返回首页</a></p>
+</div>
+<script>
+    var t = 10;
+    var time = document.getElementsByClassName("countDown")[0];
+
+    function fun() {
+        t--;
+        time.innerHTML = t;
+        if (t <= 0) {
+            navigate()
+            clearInterval(inter);
+        }
+    }
+    function navigate() {
+        var userAgentInfo = navigator.userAgent;
+        var Agents = [
+            "Android",
+            "iPhone",
+            "SymbianOS",
+            "Windows Phone",
+            "iPad",
+            "iPod"
+        ];
+        var isPc = true;
+        for (var v = 0; v < Agents.length; v++) {
+            if (userAgentInfo.indexOf(Agents[v]) > 0) {
+                isPc = false;
+                break;
+            }
+        }
+        location.href = isPc?"https://www.mlnglobal.com":"https://m.mlnglobal.com";
+    }
+    var inter = setInterval("fun()", 1000);
+</script>
+</body>
+</html>
